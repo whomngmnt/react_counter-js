@@ -16,7 +16,7 @@ export const App = () => {
   const increase = () => {
     addOne();
 
-    if ((count + 1) % 5 === 0) {
+    if (count % 5 === 0) {
       add100();
     }
   };
